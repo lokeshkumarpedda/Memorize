@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184A582E264FBB3600FA07B6 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A582D264FBB3600FA07B6 /* GridLayout.swift */; };
+		184A5831264FC88500FA07B6 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A5830264FC88500FA07B6 /* Pie.swift */; };
+		184A5834264FD1F400FA07B6 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184A5833264FD1F400FA07B6 /* Cardify.swift */; };
 		189860D7264E3B75005C8B79 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189860D6264E3B75005C8B79 /* MemorizeApp.swift */; };
-		189860D9264E3B75005C8B79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189860D8264E3B75005C8B79 /* ContentView.swift */; };
+		189860D9264E3B75005C8B79 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189860D8264E3B75005C8B79 /* EmojiMemoryGameView.swift */; };
 		189860DB264E3B77005C8B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189860DA264E3B77005C8B79 /* Assets.xcassets */; };
 		189860DE264E3B78005C8B79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189860DD264E3B78005C8B79 /* Preview Assets.xcassets */; };
+		189860E7264E4BF4005C8B79 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189860E6264E4BF4005C8B79 /* MemoryGame.swift */; };
+		189860EA264E4D47005C8B79 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189860E9264E4D47005C8B79 /* EmojiMemoryGame.swift */; };
+		189860EE264ED4C5005C8B79 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189860ED264ED4C5005C8B79 /* Grid.swift */; };
+		189860F2264EDCCA005C8B79 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189860F1264EDCCA005C8B79 /* Array+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184A582D264FBB3600FA07B6 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		184A5830264FC88500FA07B6 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		184A5833264FD1F400FA07B6 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		189860D3264E3B75005C8B79 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189860D6264E3B75005C8B79 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		189860D8264E3B75005C8B79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		189860D8264E3B75005C8B79 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		189860DA264E3B77005C8B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189860DD264E3B78005C8B79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		189860DF264E3B78005C8B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189860E6264E4BF4005C8B79 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		189860E9264E4D47005C8B79 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		189860ED264ED4C5005C8B79 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		189860F1264EDCCA005C8B79 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				189860D6264E3B75005C8B79 /* MemorizeApp.swift */,
-				189860D8264E3B75005C8B79 /* ContentView.swift */,
+				189860D8264E3B75005C8B79 /* EmojiMemoryGameView.swift */,
+				189860ED264ED4C5005C8B79 /* Grid.swift */,
+				184A582D264FBB3600FA07B6 /* GridLayout.swift */,
+				189860E9264E4D47005C8B79 /* EmojiMemoryGame.swift */,
+				189860E6264E4BF4005C8B79 /* MemoryGame.swift */,
+				189860F1264EDCCA005C8B79 /* Array+Extension.swift */,
+				184A5830264FC88500FA07B6 /* Pie.swift */,
+				184A5833264FD1F400FA07B6 /* Cardify.swift */,
 				189860DA264E3B77005C8B79 /* Assets.xcassets */,
 				189860DF264E3B78005C8B79 /* Info.plist */,
 				189860DC264E3B78005C8B79 /* Preview Content */,
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189860D9264E3B75005C8B79 /* ContentView.swift in Sources */,
+				189860E7264E4BF4005C8B79 /* MemoryGame.swift in Sources */,
+				189860D9264E3B75005C8B79 /* EmojiMemoryGameView.swift in Sources */,
+				184A5831264FC88500FA07B6 /* Pie.swift in Sources */,
+				184A5834264FD1F400FA07B6 /* Cardify.swift in Sources */,
 				189860D7264E3B75005C8B79 /* MemorizeApp.swift in Sources */,
+				189860EE264ED4C5005C8B79 /* Grid.swift in Sources */,
+				189860EA264E4D47005C8B79 /* EmojiMemoryGame.swift in Sources */,
+				184A582E264FBB3600FA07B6 /* GridLayout.swift in Sources */,
+				189860F2264EDCCA005C8B79 /* Array+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +299,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorize/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +320,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Memorize/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
